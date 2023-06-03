@@ -3,12 +3,12 @@ header {
     color: var(--link-color);
     display: flex;
     justify-content: space-between;
-    padding: 10% 0;
+    padding: 2% 0;
 }
 
 nav>ul{
     display: flex;
-    margin: 0 10%;
+    margin: 0 1%;
     justify-content: space-between;
 }
 
