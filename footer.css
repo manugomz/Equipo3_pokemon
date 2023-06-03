@@ -1,3 +1,15 @@
+:root {
+    --maincolor: #306BB3;
+    --linkcolor: #fff;
+    --textcolor: #1A202C;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
 footer {
     padding: 5%;
     background-color: var(--maincolor);
