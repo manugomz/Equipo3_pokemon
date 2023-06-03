@@ -36,8 +36,13 @@ header>div>button{
     font-weight: bold;
     color: var(--primary-color);
 }
+header>div>button:hover{
+    opacity: 0.8;
+
+}
 
 .header-logo{
     height: 90%;
     align-self: center;
+    margin-left:2rem;
 }
