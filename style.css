@@ -1,21 +1,29 @@
 :root {
-    --maincolor: #306BB3;
-    --linkcolor: #fff;
-    --textcolor: #1A202C;
-  }
+    --primary-color:#306BB3;
+    --link-color: #fff;
+    --text-black:#1a202c;  
+}
 
-  *{
+html {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
-  }
+    font-size: 16px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--link-color);
+}
+
 footer {
     padding: 5%;
     background-color: var(--maincolor);
     display: flex;
     justify-content: space-between;
-  }
+}
 
   footer>div:first-child{
     display: flex;
