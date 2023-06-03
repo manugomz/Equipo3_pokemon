@@ -3,7 +3,7 @@ header {
     color: var(--link-color);
     display: flex;
     justify-content: space-between;
-    padding: 2% 0;
+    padding: 1% 0;
 }
 
 nav>ul{
@@ -18,7 +18,6 @@ nav{
 
 nav>ul>li>a{
     color: white;
-    font-weight: 500;
 }
 
 header>div{
@@ -38,7 +37,12 @@ header>div>button{
 }
 header>div>button:hover{
     opacity: 0.8;
+    cursor: pointer;
+}
 
+nav>ul>li>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .header-logo{
