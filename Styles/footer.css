@@ -30,9 +30,14 @@ footer {
   }
 
   .footer_links>ul{
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .footer_links>ul>li>a{
+    color: white;
   }
 
   .social_media{
