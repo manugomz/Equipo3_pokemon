@@ -1,5 +1,5 @@
 .card {
-  width: 20rem;
+  width: 100%;
   height: auto;
   background-color: #dee5ed;
   border-radius: 0.5rem;
@@ -23,6 +23,7 @@
 }
 
 .back-pokemon {
+  display: flex;
   background-color: #fff;
   width: 90%;
   height: auto;
@@ -45,6 +46,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.centrar-nuevo {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .power button {
