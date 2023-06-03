@@ -20,7 +20,7 @@ header {
 
 footer {
     padding: 5%;
-    background-color: var(--maincolor);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
 }
@@ -29,7 +29,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    color: var(--linkcolor)
+    color: var(--link-color)
   }
 
   footer>div:last-child{
