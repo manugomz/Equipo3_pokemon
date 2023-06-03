@@ -1,0 +1,24 @@
+:root {
+    --primary-color:#306BB3;
+    --link-color: #fff;
+    --text-black:#1a202c;
+    
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+*,
+*::before 
+*::after {
+    box-sizing: inherit;
+} 
+header {
+    background-color: var(--primary-color);
+    color: var(--link-color);
+
+    
+}
