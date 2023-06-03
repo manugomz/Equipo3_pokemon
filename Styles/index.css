@@ -1,58 +1,38 @@
 :root {
     --primary-color:#306BB3;
     --link-color: #fff;
-    --text-black:#1a202c;  
+    --text-color:#1a202c;  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 html {
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 16px;
+    font-size: 16px;    
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--link-color);
+a{
+  text-decoration: none;
+  color: var(--text-color);
 }
 
-footer {
-    padding: 5%;
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: space-between;
+main{
+  display:flex ;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5%;
+  
 }
 
-  footer>div:first-child{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    color: var(--link-color)
-  }
-
-  footer>div:last-child{
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-  }
-
-  .footer_links>p{
-    color: white;
-    font-weight: bolder;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-  }
-
-  .footer_links>ul{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .social_media{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
